@@ -1,0 +1,22 @@
+// variable overrides
+
+$theme-colors: (
+	"primary": #bf1304,
+	"secondary": #d9ab23,
+	"success": #28a745,
+	"danger": #ff4136,
+	"warning": #ffc107,
+);
+$body-bg: #262626;
+$body-color: #f2f2f2;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Custom style overrides
+.btn {
+	width: 100%;
+	border-radius: 12px;
+}
+.row {
+	margin-bottom: 32px;
+}

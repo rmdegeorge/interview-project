@@ -1,10 +1,13 @@
 import React from 'react'
+import TopBanner from './components/TopBanner';
+import Table from './components/Table';
 
 function App() {
   return (
-    <div className="App">
-			My new app
-    </div>
+		<>
+			<TopBanner />
+			<Table />
+		</>
   );
 }
 

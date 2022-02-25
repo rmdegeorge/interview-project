@@ -1,18 +1,13 @@
 import React from 'react'
-import styles from './App.module.css';
-
-import Deck from './components/deck/deck.component'
+import TopBanner from './components/TopBanner';
+import Table from './components/Table';
 
 function App() {
   return (
-    <div className={styles.table}>
-      <h1>
-        Lets Draw Some Cards
-      </h1>
-      <div className='container'>
-        <Deck />
-      </div>
-    </div>
+		<>
+			<TopBanner />
+			<Table />
+		</>
   );
 }
 

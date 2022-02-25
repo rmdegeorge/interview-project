@@ -9,6 +9,9 @@ Once, you have drawn all 4 Queens, you stop drawing and sort your piles in ascen
 You are also limited to only being able to draw cards 1 time per second. I wouldn't want you to accidentally drop the deck and have to play 52 card pickup becuase you tried to play the game too fast!
 
 ## To get Started 
+### `yarn install`
+
+and
 
 ### `yarn start`
 

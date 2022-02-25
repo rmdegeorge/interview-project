@@ -11,7 +11,7 @@ You are also limited to only being able to draw cards 1 time per second. I would
 ## To get Started 
 ### `yarn install`
 
-and
+to install dependencies and then
 
 ### `yarn start`
 

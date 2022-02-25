@@ -1,0 +1,21 @@
+.pile {
+	// position: relative;
+
+	& :nth-child(n) {
+		margin-top: -45%;
+	}
+	& :first-child {
+		margin-top: 0;
+	}
+}
+.cardContainer {
+	min-width: 75px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 6px 4px #000000;
+	border-radius: 8px;
+}
+.cardImg {
+	width: 100%;
+}
